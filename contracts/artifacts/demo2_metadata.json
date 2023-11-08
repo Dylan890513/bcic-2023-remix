@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "initOffset",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newOffset",
+						"type": "uint256"
+					}
+				],
+				"name": "setNewOffset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/demo2.sol": "demo2"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/demo2.sol": {
+			"keccak256": "0x30923b5851d79811dfb0c38b7fa4e8e0cca4c8f2076121028c1b9d53025d4551",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8a0ab785f111edf6af4d3cb9ea9f7f98008128c61359fa13e7806d0097edd4a2",
+				"dweb:/ipfs/QmNjuWeaN8sdcLG9rfQQZzHrwjRyTphTBFor5YBcJTDn59"
+			]
+		}
+	},
+	"version": 1
+}

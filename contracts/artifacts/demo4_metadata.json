@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "geCurrentSize",
+				"outputs": [
+					{
+						"internalType": "enum demo4.StarbuckSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDefaultSize",
+				"outputs": [
+					{
+						"internalType": "enum demo4.StarbuckSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setVenti",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/demo4.sol": "demo4"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/demo4.sol": {
+			"keccak256": "0x0239999722318d92f3106ae1e8aac8b3a0745a5c4056cefd44a7fd3b6c1d455b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://14eb1bb8764dae7a6fc3083bb63a8fb5bb19714679a9f23f282027ed92ed6002",
+				"dweb:/ipfs/QmNvfLpz18pUsHQ9KD6PVDNZdvG5sAEo3kePpRJdrAqLaZ"
+			]
+		}
+	},
+	"version": 1
+}
